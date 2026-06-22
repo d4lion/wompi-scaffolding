@@ -1,13 +1,9 @@
 
 # Wompi Scaffolding  
-Esta es una plantilla para realizar un backend sencillo en base  
-a los eventos que envia Wompi por medio de su Webhook principalmente esta pensado  
-para usarse en funciones Lambda de servicios en la nube pero puede extrapolarse a  
-otros sectores en los cuales pueda ser beneficioso.  
+Esta es una plantilla para realizar un backend sencillo en base a los eventos que envia Wompi por medio de su Webhook principalmente esta pensado para usarse en funciones Lambda de servicios en la nube pero puede extrapolarse a otros sectores en los cuales pueda ser beneficioso.  
   
 ## Signature  
-Como se menciona en la documentación oficial de Wompi para verificar la validez de una transacción  
-se usan los campos de `properties` que viajan dentro del cuerpo del Webhook como se ve [aquí](https://docs.wompi.co/docs/colombia/eventos/#paso-a-paso-verifica-la-autenticidad-de-un-evento). 
+Como se menciona en la documentación oficial de Wompi para verificar la validez de una transacción se usan los campos de `properties` que viajan dentro del cuerpo del Webhook como se ve [aquí](https://docs.wompi.co/docs/colombia/eventos/#paso-a-paso-verifica-la-autenticidad-de-un-evento). 
   
 El archivo `signature.py` contiene la funcion `verify_event_checksum` la cual se encarga de verificar si el checksum de seguridad enviado coincide con la clave cryptografica que se tiene en confianza con los dos servidores (Wompi y nuestro servidor) esta devuelve un **True** o **False** dependiendo de el exito de la autenticidad.
 
