@@ -1,0 +1,81 @@
+{
+  "event": "transaction.updated",
+  "data": {
+    "transaction": {
+      "id": "11608115-1781936229-12319",
+      "created_at": "2026-06-20T06:17:09.587Z",
+      "finalized_at": "2026-06-20T06:17:10.584Z",
+      "amount_in_cents": 7000000,
+      "reference": "test_Bj99lR_1781936201_RgK55GNHR",
+      "customer_email": "test@gmail.com",
+      "currency": "COP",
+      "payment_method_type": "PSE",
+      "payment_method": {
+        "type": "PSE",
+        "extra": {
+          "ticket_id": "11608115178193622912319",
+          "is_three_ds": false,
+          "return_code": "SUCCESS",
+          "request_date": "2026-06-20",
+          "async_payment_url": "https://api-sandbox.wompi.co/v1/pse/redirect?ticket_id=11608115178193622912319",
+          "traceability_code": "SANDBOX-0qXfpfjon9-OK",
+          "transaction_cycle": "1",
+          "transaction_state": null,
+          "three_ds_auth_type": null,
+          "external_identifier": "SANDBOX-0qXfpfjon9-OK",
+          "bank_processing_date": "2026-06-20"
+        },
+        "user_type": 0,
+        "user_legal_id": "1234567890",
+        "user_legal_id_type": "CC",
+        "payment_description": "Generic Payment Description",
+        "financial_institution_code": "1"
+      },
+      "status": "APPROVED",
+      "status_message": null,
+      "shipping_address": null,
+      "redirect_url": "https://somepage.com",
+      "payment_source_id": null,
+      "payment_link_id": "test_Bj99lR",
+      "customer_data": {
+        "legal_id": "1234567890",
+        "device_id": "a82946b9eb835daefe69c946787072de",
+        "full_name": "Jhon Doe",
+        "browser_info": {
+          "browser_tz": "300",
+          "browser_language": "es-CO",
+          "browser_user_agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/149.0.0.0 Safari/537.36",
+          "browser_color_depth": "32",
+          "browser_screen_width": "2560",
+          "browser_screen_height": "1440"
+        },
+        "phone_number": "+573991111111",
+        "legal_id_type": "CC",
+        "device_data_token": "eyJhbGciOiJIUzI1NiJ9.eyJjb21wcmVzc2VkIjoiZUp6TlZtMXoyamdRL2lzYWYwcG0zTVJnWTB6NkNYQkxjZ1hDSENScGV0UEp5TkxhNkxBdFY1WjVTYWIvL1ZZMm9TUzkzTnpId0F4WXo2NTJuMzJUL0dRdHRTNXVTbEQ5QkhKdFhWZ1QrU2pTbEo1M3poeHljaWR5TGpjbG1TNUl5emx6UGhJRWZPOGoyZnJlS2VrWFJRcDNFSDBSK3J6amRzOWNuNXg4dVZ4TXhqWkp4UXJJQ05oS25wTGhVc2tNemx0ZWo4eHBUSlhZSzF2MlM5OGgxZFM2ZUxJaWhSNUJJWlZtSitydG9ZYzFxRkxJSEVWbzdjd3hYNVRLRW9FOTAzcDVyTmVvY0ZnTEJyaWVEWEZGRlZzS0RVeFh5bUFZRElLUUp5STN5eVlpUkZLYUp4Vk5EQWJsaCtFMVFxS2N5RWlrQ01VMExjRUFDeHFsb0krQUVNcVZsb1Yxb1ZVRlAyMnJTS21PcGNvYWttNTdIM2VmTVNqMCtIY2ZPVjJMaEdxcFprb1dvTFNBY2lnclU1dWdaVnNiaUVialc4QmcxVEhYR3Y0VFlWRHdTMER1RFB3c05nays3QnhKbWFSQXJuSjJSazRtZ2lsWnlsaWZIdXNlbWV0UFIrTlBSM28yT1R5U0FTMEZJNDB5Q1pYQTVKTVRaK3ZVbjJCNFNrS2hNTmR1MkdxUmRmblFlWEJJVWYvWkpEVGdDNS96SlVVek05d2dtZ3EyWGR1S0ZmeW9JR2U3Zms3VFhkMGJYb0RHYlV1TERCNWxYYlorQmtvd2VqNlFpY1JHc3EyU0tZRDhUbkM5UkRNZDMzbUdMa0VrUzB4bnkvTU9XSWkxUURXM2JWdE15aFhtL0ZOdUNzdWJNbUl6U0ViVE9WWUZpL1ZLVkVKcHVQNjdFTnNTdHNERHdTdDhTUlhmVUFWRG1iTktLUk1kRnZpNVV5ZVFTWVZBeThmK0FaV0oya001cEJna0RvbFY0R0FVcHU1SHdyb2l4YkxKQm9kY29EUE1uY3cxenNkZjFwQ21JbElDb2NtYzNGeVJrZFJMd2N5U0tteGdZMndPaVFRakc5Y0orbTViVlFsOVBzRFlWNGNHNTNJcTlVSlJBMWxWdnNybEpqZEUwZ3JueDNoNndnN09ESWUwdys3RzArdkxldjR3emFMUXpWQldmMi91YjRySGI0L2Vxc091cTYrTHphQi9wWUxlNVkvYm9odGtDOXlRWVdFWHV3SWFneHFmY0o4cGFoWEhZbXRnYXpvUzFrLzd2NFRmalhoUHBqNUxSSldSV2ZpWjNBcllZQmU5NWpXVFNwc2lrVkN5S3NNamlYekd1YVg2TFQ0VUQwQnNPYlA3dk9EeFN3WUdPS0tuWWF2ZlVEcW0rYjdaL1JyNlR6eUJkNTdLMiszOTVQb3kvSTNhYnZqSFJNUFgzVGZGc1QxSFluTS9HUW12bTg0M2JqUk50Lyt2K1Zienpkdk5Wd3VQcVF3VVhUZnBvamtuc3ptWjFkUHlIck8ydnppaVNxVDZnOGdONmZkREUwK2t0ZUFnRzNlbGVWdklDZy9sR2QxRjBOd2oyZEZTSnNsaGhUZXhhaTQwZnBYaE9YMUpTenp3cllBR3NjUGJVUlJFdnV1NDNIZDhod1lROTV3V2R4bG5IY2RwUjY3SFk4OEh6Ky9nci9saGZxdnRPcHg1OVBCeWNSV2FTSU4yei9PakhrU0IyK0VVWXZCN0RKRnUwSFc2Ylk0cy9nRjVwQ0lYIn0.3X7ofYOpMzTdkDw0lFA0UicZCqlslnNAtCSXEGtSKO8",
+        "customer_references": [
+          {
+            "label": "Customer references 1",
+            "value": "test@gmail.com"
+          },
+          {
+            "label": "Customer references 2",
+            "value": "1234567890"
+          }
+        ]
+      },
+      "billing_data": null,
+      "origin": null
+    }
+  },
+  "sent_at": "2026-06-20T06:17:10.801Z",
+  "timestamp": 1781936230,
+  "signature": {
+    "checksum": "3f6662ac01ed6f40a0fe791910104d4cd9387feb51d30aaea7abe893ba7bbbe2",
+    "properties": [
+      "transaction.id",
+      "transaction.status",
+      "transaction.amount_in_cents"
+    ]
+  },
+  "environment": "test"
+}
